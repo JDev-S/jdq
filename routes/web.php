@@ -27,6 +27,8 @@ Route::get('/acercade', function () {
 Route::get('/contacto', function () {
     return view('/principal/contacto');
 });
+/*RUTA PARA MANDAR MENSAJES*/
+Route::post('/contactar', 'EmailController@contact')->name('contact');
 
 /*VISTA DE INFORMACION DEL Producto*/
 Route::get('/info_producto','AlimentosController@mostrar_platillo');

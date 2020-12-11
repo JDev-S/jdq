@@ -27,23 +27,24 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 contact">
                 <h3 class="heading-3">Llenar formulario</h3>
-                <form action="/action_page.php">
+                <form method="POST" action={{route('contact')}}>
+                    {{ csrf_field() }}
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 margin-bot-30">
-                            <input type="text" class="form-control" placeholder="Nombre*" name="nombre">
+                            <input type="text" class="form-control" placeholder="Nombre*" name="nombre" required="" >
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 margin-bot-30">
-                            <input type="email" class="form-control" placeholder="Email*" name="email">
+                            <input type="email" class="form-control" placeholder="Email*" name="email" required="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 margin-bot-30">
-                            <input type="numeric" class="form-control" placeholder="Teléfono" name="telefono">
+                            <input type="numeric" class="form-control" placeholder="Teléfono" name="telefono" required="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje*" class="w-100"></textarea>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje*" class="w-100" required=""></textarea>
                         </div>
                     </div>
                     <button type="submit" name="submit">Enviar mensaje</button>

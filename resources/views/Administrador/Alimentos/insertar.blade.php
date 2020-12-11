@@ -110,7 +110,7 @@
                             </div>
                             <div class="ms-panel-body">
                                 <h6>Imagen principal </h6>
-                                <div id="imagesSlider" class="ms-image-slider carousel slide" data-ride="carousel">
+                                <div id="imagesSlider" class="ms-image-slider carousel slide" required="" data-ride="carousel">
                                     <div id="preview"></div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustom12">Imagenes </label>
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="fileInput" name="miarchivo[]" multiple='multiple' onchange="GetFileInfo ()">
+                                    <input type="file" class="custom-file-input" id="fileInput" required="" name="miarchivo[]" multiple='multiple' onchange="GetFileInfo ()">
                                     <label class="custom-file-label" for="validatedCustomFile">Elige las imagenes</label>
                                     <div class="invalid-feedback">Example invalid custom file feedback</div>
                                 </div>
@@ -139,7 +139,7 @@
                             <div class="col-md-12 mb-3">
                                 <label for="validationCustom12">Imagenes de los colores </label>
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="fileInput2" name="miarchivo2[]" multiple='multiple' onchange="GetFileInfo2 ()">
+                                    <input type="file" class="custom-file-input" id="fileInput2" required="" name="miarchivo2[]" multiple='multiple' onchange="GetFileInfo2 ()">
                                     <label class="custom-file-label" for="validatedCustomFile">Elige las imagenes</label>
                                     <div class="invalid-feedback">Example invalid custom file feedback</div>
                                 </div>
