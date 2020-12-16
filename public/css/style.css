@@ -2477,8 +2477,8 @@ header {
 .header-v2 .submenu-header {
   position: fixed;
   top: 125px;
-  width: 20%;
-  left: 320px;
+  width: 100%;
+  left: 0px;
   right: 0;
   z-index: 9999;
   background: #fff;
@@ -2532,8 +2532,8 @@ header {
     .header-v2 .submenu-header ul:first-child li {
       margin-bottom: 14px; }
       .header-v2 .submenu-header ul:first-child li a {
-        font-size: 18px;
-        font-weight: bold; }
+        font-size: 16px;
+        }
   @media only screen and (min-width: 1200px) {
     .header-v2 .submenu-header {
       top: 108px; }
@@ -8604,7 +8604,7 @@ header {
     font-size: 18px; } }
 
 .section-slide {
-  background-image: url("../img/shoppage-slide.jpg");
+  /*background-image: url("../img/shoppage-slide.jpg");*/
   background-repeat: no-repeat;
   background-size: cover; }
   .section-slide .title {
@@ -9147,7 +9147,7 @@ header {
     transition: all .4s; }
 
 .slide-about-us {
-  background-image: url("../img/about-us-1.jpg");
+  
   background-position: center;
   background-attachment: scroll;
   background-size: cover;

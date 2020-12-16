@@ -1,11 +1,8 @@
 @extends('welcome')
 @section('contenido')
-
-<section class="slide-about-us img-fluid ">
+<section class="section-slide img-fluid" style="background-image: url('/img/about-us-1.jpg');">
     <div class="title text-center">
-        <h3 class="heading-3 font-weight-bold  text-white">
-            Contáctanos
-        </h3>
+        <h3 class="heading-3 font-weight-bold">Contacto</h3>
 
     </div>
 </section>

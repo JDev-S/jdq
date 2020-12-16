@@ -1,11 +1,12 @@
 @extends('welcome')
 @section('contenido')
-<section class="section-slide img-fluid">
+<section class="section-slide img-fluid" style="background-image: url('/img/{{$productos[0]->fotografia_miniatura}}');">
     <div class="title text-center">
         <h3 class="heading-3 font-weight-bold">{{$productos[0]->nombre_alimento}}</h3>
 
     </div>
 </section>
+
 
 <section class="section-toolbar">
     <div class="product-toolbar">

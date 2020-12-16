@@ -1,6 +1,6 @@
 @extends('welcome')
 @section('contenido')
-<section class="section-slide img-fluid">
+<section class="section-slide img-fluid" style="background-image: url('/img/shoppage-slide.jpg');">
     <div class="title text-center">
         <h3 class="heading-3 font-weight-bold">Catálogo</h3>
 

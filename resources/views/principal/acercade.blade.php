@@ -1,13 +1,12 @@
 @extends('welcome')
 @section('contenido')
-<section class="slide-about-us">
+<section class="section-slide img-fluid" style="background-image: url('/img/about-us-1.jpg');">
     <div class="title text-center">
-        <h3 class="heading-3 text-white  font-weight-bold">
-            Acerca de 
-        </h3>
+        <h3 class="heading-3 font-weight-bold">Acerca de</h3>
 
     </div>
 </section>
+
 <section class="section-history">
     <div class="my-container">
         <div class="row">
@@ -42,7 +41,7 @@
     </div>
 </section>
 
-<section class="section-our-team">
+<!--<section class="section-our-team">
     <div class="my-container">
         <h3 class="heading-3 font-weight-bold text-center">Equipo de trabajo</h3>
         <div class="row">
@@ -88,5 +87,5 @@
         </div>
     </div>
 
-</section>
+</section>-->
 @stop
